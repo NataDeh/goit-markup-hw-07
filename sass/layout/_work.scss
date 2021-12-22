@@ -13,9 +13,7 @@
 .work-list{
     display: flex;
 }
-.work-item:not(:last-child){
-    margin-right: 30px;
-}
+
 img{
     display: block;
     max-width: 100%;
@@ -23,6 +21,9 @@ img{
 }
 .work-item{
     position: relative;
+    &:not(:last-child){
+        margin-right: 30px;
+    }
 }
 .work-text-board{
     display: flex;

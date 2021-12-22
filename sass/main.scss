@@ -1,11 +1,26 @@
-@import './header';
-@import './hero';
-@import './about';
-@import './work';
-@import './team';
-@import './clients';
-@import './footer';
-@import './filter';
-@import './portfolio';
-@import './modal';
-@import './form';
+@import './utils/vars';
+@import './utils/hidden';
+
+@import './base/reset';
+
+
+@import './components/container';
+@import './components/logo';
+@import './components/btn';
+@import './components/modal';
+@import './components/form';
+@import './components/link-hover';
+
+
+
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/about';
+@import './layout/work';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/footer';
+@import './layout/filter';
+@import './layout/portfolio';
+

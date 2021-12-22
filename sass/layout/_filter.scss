@@ -5,24 +5,22 @@
 }
 .filter-item{
     height: 38px;
+    &:not(:last-child){
+        margin-right: 8px;
+    }
 }
-.filter-item:not(:last-child){
-    margin-right: 8px;
-}
+
 .filter-oll{
-    min-width: 73px;
-    height: 38px;
     box-sizing: border-box;
     font-family:inherit;
+    min-width: 73px;
+    height: 38px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     letter-spacing: 0.03em;
-    border: none;
-    border-radius: 4px;
     background-color: var(--accent-color);
-    color: rgba(255, 255, 255, 1);
-    cursor: pointer;
+    color: var(--main-title-color);
     transition-property: color, box-shadow, background-color;
     transition-duration: 250ms;
     transition-timing-function: var(--timing-function);
@@ -32,25 +30,14 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
-    Letter-spacing: 0.03em;
-    border: none;
-    border-radius: 4px;
+    letter-spacing: 0.03em;
     padding-top: 6px;
     padding-right: 22px;
     padding-bottom: 6px;
     padding-left: 22px;
     color: rgba(33, 33, 33, 1);
-    cursor: pointer;
     transition-property: color, box-shadow, background-color;
     transition-duration: 250ms;
     transition-timing-function: var(--timing-function);
+}
 
-}
-.btn:hover,
-.btn:focus {
-    color: #ffffff;
-    background-color: var(--accent-hover-color);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
-        0px 1px 2px rgba(0, 0, 0, 0.08),
-        0px 2px 2px rgba(0, 0, 0, 0.12);
-}
