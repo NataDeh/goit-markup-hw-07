@@ -2,14 +2,14 @@
     display: flex;
 }
 
-.about-item{
+.about-list__item{
 width: 270px;
     &:not(:last-child){
         margin-right: 30px;
     }
 }
 
-.about-head{
+.about-list__head{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.17;
@@ -19,7 +19,7 @@ width: 270px;
     margin-bottom: 10px; 
 }
 
-.about-icon{
+.about-list__icon{
     display: flex;
     height: 120px;
     justify-content: center;
@@ -30,7 +30,7 @@ width: 270px;
     justify-content: center;
 }
 
-.about-text{
+.about-list__text{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;

@@ -11,19 +11,20 @@
 .header-list{
     display: flex;
 }
-.header-item{
+.header-list__item{
     font-family: Roboto;
     &:not(:last-child){
         margin-right: 50px;
     }
 }
 
-.contacts-list{
+.header-contacts-list{
     display: flex;
     align-items: center;
     margin-left: auto;
 }
-.header-link{
+
+.header-list__link{
     display: block;
     font-weight: 500;
     font-size: 14px;
@@ -34,13 +35,14 @@
     color: var(--secondary-title-color);
     transition: color 250ms var(--timing-function);
 }
-.header-light{
+
+.header-list__light{
     display: block;
     position: relative;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    Letter-spacing: 0.02em;
+    letter-spacing: 0.02em;
     padding-top: 32px;
     padding-bottom: 32px;
     transition: color 250ms var(--timing-function);
@@ -62,6 +64,7 @@
 .current{
     color: var(--accent-hover-color);
 }
+
 .contact{
     display: flex;
     font-weight: 500;
@@ -73,7 +76,7 @@
     padding-bottom: 32px;  
     color: var(--main-text-color); 
 }
-.contact-item:not(:last-child){
+.header-contacts-list__item:not(:last-child){
     display: block;
     margin-right: 50px;
 }
@@ -94,12 +97,12 @@
 }
 
 .icon-phone{
-    display: inline-flex;
+    display: flex;
     align-items: center;
     margin-right: 10px;
     fill: currentColor;
     &::before{
-        contain: "";
+        content: "";
         display: block;
         width: 10px;
         height: 16px;

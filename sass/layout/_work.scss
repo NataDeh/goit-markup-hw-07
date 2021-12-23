@@ -1,7 +1,7 @@
 .work{
     padding-top: 0;
 }
-.work-title{
+.work__title{
     font-weight: 700;
     text-align: center;
     font-size: 36px;
@@ -19,13 +19,13 @@ img{
     max-width: 100%;
     height: auto;
 }
-.work-item{
+.work-list__item{
     position: relative;
     &:not(:last-child){
         margin-right: 30px;
     }
 }
-.work-text-board{
+.work-list__text-board{
     display: flex;
     position: absolute;
     height: 70px;

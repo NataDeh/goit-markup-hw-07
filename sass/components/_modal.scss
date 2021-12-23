@@ -28,7 +28,7 @@
     }
 }
 
-.modal-close{
+.modal__close{
     width: 30px;
     height: 30px;
     background-color: transparent;
@@ -44,7 +44,7 @@
     transition: fill 250ms var(--timing-function);
 }
 
-.modal-close-icon:hover{
+.modal__close-icon:hover{
     fill: var(--accent-hover-color);
 }
 
