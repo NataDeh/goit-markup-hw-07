@@ -46,16 +46,11 @@
     &:focus{
         border-color: var(--accent-hover-color);
     }
-    &:focus + .input-wrap__icon{
-        fill: var(--accent-hover-color);
-    }
     &::placeholder{
         font-weight: 400;
         color: rgba(33, 33, 33, 0.2);
         opacity: 0.5;
-    
     }
-
 }
 
 .input-wrap__icon{
@@ -64,11 +59,12 @@
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms var(--timing-function);
+    .input-wrap__input:focus + &, 
+    .modal-form__input:focus + & {
+        fill: var(--accent-hover-color);
+    }
 }
 
-.modal-form__input{
-
-}
 
 .check__text{
     font-size: 14px;
@@ -101,8 +97,10 @@
 }
 
 .contract-link{
-    color: rgba(33, 150, 243, 1);
+    display: inline-block;
+    color: var(--accent-color);
     margin-left: 5px;
+    border-bottom: 1px solid var(--accent-color);
 }
 
 .modal-btn{

@@ -1,4 +1,4 @@
-.team{
+.section-ather-background{
     max-width: 1600px;
     margin: 0 auto;
     background-color: rgba(245, 244, 250, 1);
@@ -17,7 +17,7 @@
     display: flex;
 }
 
-.team-list__name{
+.team-list__title{
     font-style: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -25,13 +25,13 @@
     color: var(--secondary-title-color);
 }
 
-.team-list__text{
+.team-list__wrapper{
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
 }
 
-.team-list__prof{
+.team-list__text{
     font-size: 16px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -39,20 +39,20 @@
     margin-top: 10px;
 }
 
-.worker-social__list{
+.social{
     display: flex;
     justify-content: center;
     margin-top: 16px;
 }
 
-.worker-social__item{
+.social__item{
     width: 44px;
     height: 44px;
     & + .worker-social__item{
         margin-left: 10px;
     }
 }
-.worker-social__link{
+.social__link{
     width: 100%;
     height: 100%;
     display: flex;
@@ -68,6 +68,6 @@
         color: var(--main-title-color);
     }
 }
-.worker-social__icon{
+.social__icon{
     fill: currentColor;
 }

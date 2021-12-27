@@ -10,7 +10,7 @@
     }
 }
 
-.filter-oll{
+.filter-list-oll__button{
     box-sizing: border-box;
     font-family:inherit;
     min-width: 73px;
@@ -25,7 +25,7 @@
     transition-duration: 250ms;
     transition-timing-function: var(--timing-function);
 }
-.filter{
+.filter-list__button{
     height: 38px;
     font-weight: 500;
     font-size: 16px;
